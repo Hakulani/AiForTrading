@@ -1,14 +1,14 @@
 # AiForTrading
-UDACITY AI for trading nano degree
+# Overview
+In collaboration with WorldQuant and Udacity, I've completed a comprehensive program focusing on quantitative finance and AI applications in trading. Throughout this program, I've acquired advanced skills in financial data analysis, model building, and algorithmic trading strategies. Equipped with this expertise, I am ready to contribute effectively to the dynamic environment of quantitative asset management.
 
-WorldQuant, a global quantitative asset management firm, in partnership with global online learning company Udacity announces the launch of a new Artificial Intelligence for Trading Nanodegree program. Students enrolled in the program will analyze real data and build financial models by learning the basics of quantitative trading, as well as how to analyze alternative data and use machine learning to generate trading signals.
+# Key Skills and Achievements
+Quantitative Analysis Proficiency: Mastered quantitative analysis techniques including data processing, trading signal generation, and portfolio management.
+Advanced AI Applications: Utilized machine learning algorithms such as natural language processing, recurrent neural networks, and random forests to generate trading signals and evaluate strategies.
+Real-World Project Experience: Successfully completed 8 projects demonstrating expertise in applying quantitative finance principles to real-world scenarios.
+Collaboration and Communication: Worked with industry experts and peers, fostering collaborative skills and effective communication in presenting findings and strategies.
 
-Udacity and WorldQuant have collaborated with top industry professionals with prior experience at leading financial institutions to ensure students are exposed to the latest AI applications in trading and quantitative finance. By learning from industry experts, students will advance their finance knowledge, build a strong portfolio of real-world projects and learn to generate trading signals using natural language processing, recurrent neural networks and random forests. Graduates will gain the quantitative skills currently in demand across multiple functions and roles at hedge funds, investment banks and fintech startups.
-
-The program consists of two three-month terms. In the first term, students learn the basics of quantitative analysis, covering data processing, trading signal generation and portfolio management. The second term is focused on AI Algorithms for Trading, where students work with alternative data and use machine learning to generate trading signals and run backtests to evaluate signals
-
-Nanodegree Program Information
-This nanodegree program is comprised of 8 courses and 8 projects, which are described in detail below. Building a project is one of the best ways to demonstrate the skills we've learned around the mastery of quantitative finance.
+# Project Highlights
 
 Project 1: Trading with Momentum
 Project 2: Breakout Strategy
@@ -18,30 +18,29 @@ Project 5: NLP on Financial Statements (generate Alpha Factors from 10-k)
 Project 6: Sentiment Analysis with Neural Networks (LSTM)
 Project 7: Combining Signals for Enhancing Alphas (using Machine Learning)
 Project 8: Backtesting (Barra data)
-Project 1: Trading with Momentum
-In this project, you will learn to implement a trading strategy on your own, and test to see if it has the potential to be profitable. You will be supplied with a universe of stocks and time range. You will also be provided with a textual description of how to generate a trading signal based on a momentum indicator. You will then compute the signal for the time range given and apply it to the dataset to produce projected returns. Finally, you will perform a statistical test on the mean of the returns to conclude if there is alpha in the signal. For the dataset, we'll be using the end of day from Quotemedia.
 
-Project 2: Breakout Strategy
-In this project, you will implement the breakout strategy. You'll find and remove any outliers. You'll test to see if it has the potential to be profitable using a Histogram and P-Value. For the dataset, we'll be using the end of day from Quotemedia.
 
-In this project, you will code and evaluate a breakout signal. You will run statistical tests to test for normality and to find alpha. You will also learn to find outliers and evaluate the effect that filtered outliers could have on your trading signal. You will run various scenarios of your model with or without the outliers and decide if the outliers should be kept or not. You'll test to see if it has the potential to be profitable using a Histogram and P-Value. For the dataset, we'll be using the end of day from Quotemedia.
+Project 1: Momentum Trading Strategy Implementation
+This project involves independently implementing and testing a trading strategy to assess its potential profitability. You'll be provided with a set of stocks and a specified time range. Your task is to generate a trading signal based on a momentum indicator, compute the signal for the given time range, and apply it to the dataset to project returns. Finally, you'll conduct a statistical test on the mean returns to determine if the signal exhibits alpha. The dataset utilized will be Quotemedia's end-of-day data.
+
+Project 2: Breakout Strategy Implementation
+In this project, you'll implement a breakout strategy, which includes identifying and handling outliers. Through statistical analysis, including histogram and P-Value assessments, you'll evaluate the strategy's potential profitability. Furthermore, you'll run scenarios with and without outliers to determine their impact on the trading signal's effectiveness. Similar to Project 1, Quotemedia's end-of-day data will be utilized.
 
 Project 3: Smart Beta and Portfolio Optimization
-In this project, you will build a smart beta portfolio and compare it to a benchmark index. To find out how well the smart beta portfolio did, you’ll calculate the tracking error against the index. You’ll then build a portfolio by using quadratic programming to optimize the weights. Your code will rebalance this portfolio and calculate turn over to evaluate the performance. You’ll use this metric to find the optimal rebalancing Frequency. For the dataset, we'll be using the end of day from Quotemedia.
+Here, you'll construct a smart beta portfolio and compare its performance against a benchmark index. By calculating tracking error and optimizing weights through quadratic programming, you'll build and rebalance the portfolio, assessing its performance through turnover analysis. The optimal rebalancing frequency will also be determined. The dataset employed will be Quotemedia's end-of-day data.
 
-Project 4: Multi-Factor Model
-In this project, you will build a statistical risk model using PCA. You’ll use this model to build a portfolio along with 5 alpha factors. You’ll create these factors, then evaluate them using factor-weighted returns, quantile analysis, sharpe ratio, and turnover analysis. At the end of the project, you’ll optimize the portfolio using the risk model and factors using multiple optimization formulations. For the dataset, we'll be using the end of day from Quotemedia and sector data from Sharadar.
+Project 4: Multi-Factor Model Development
+This project entails building a statistical risk model using Principal Component Analysis (PCA) and incorporating five alpha factors to construct a portfolio. Evaluation metrics such as factor-weighted returns, quantile analysis, and Sharpe ratio will be employed. Portfolio optimization will be performed using the risk model and factors with various optimization formulations. Quotemedia's end-of-day data and sector data from Sharadar will be utilized.
 
-Project 5: NLP on Financial Statements
-In this project, you will apply Natural Language Processing (NLP) on corporate filings, such as 10Q and 10K statements, from cleaning data and text processing, to feature extraction and modeling. You will utilize bag-of-words and TF-IDF to generate company-specific sentiments. Based on the sentiments, you will decide which company to invest in, and the optimal time to buy or sell. You will use NLP generate an alpha factor.For the dataset, we'll be using the end of day from Quotemedia and Loughran-McDonald sentiment word lists.
+Project 5: Natural Language Processing (NLP) on Financial Statements
+Utilizing NLP techniques on corporate filings like 10Q and 10K statements, this project involves cleaning data, text processing, and feature extraction. Company-specific sentiments will be generated using bag-of-words and TF-IDF methodologies. Based on these sentiments, investment decisions regarding optimal timing for buying or selling will be made, aiming to generate an alpha factor. Quotemedia's end-of-day data and Loughran-McDonald sentiment word lists will be utilized.
 
 Project 6: Sentiment Analysis with Neural Networks
-In this project, you'll build your own deep learning model to classify the sentiment of messages from StockTwits, a social network for investors and traders. Your model will be able to predict if any particular message is positive or negative. From this, you'll be able to generate a signal of the public sentiment for various ticker symbols.
+This project focuses on building a deep learning model to classify sentiment in messages sourced from StockTwits, a social network for investors and traders. LSTM networks will be constructed and trained for sentiment classification, with subsequent application to news data for signal generation.
 
-You will construct and train LSTM networks for sentiment classification. You will run backtests and apply the models to news data for signal generation
-
-Project 7: Combining Signals for Enhanced Alphas
-In this project, you'll combine signals on a random forest for enhanced alpha. While implementing this, you'll have to solve the problem of overlapping samples. For the dataset, we'll be using the end of day from Quotemedia and sector data from Sharadar.
+Project 7: Signal Combination for Enhanced Alphas
+Here, you'll combine signals using a random forest approach to enhance alpha. Addressing the challenge of overlapping samples, you'll integrate data from Quotemedia's end-of-day and sector data from Sharadar.
 
 Project 8: Backtesting
-In this project, you will build a fairly realistic backtester that uses the Barra data. The backtester will perform portfolio optimization that includes transaction costs, and you'll implement it with computational efficiency in mind, to allow for a reasonably fast backtest. You'll also use performance attribution to identify the major drivers of your portfolio's profit-and-loss (PnL). You will have the option to modify and customize the backtest as well.
+This project involves constructing a realistic backtester utilizing Barra data. The backtester will optimize portfolios with transaction costs while prioritizing computational efficiency for reasonably fast backtesting. Additionally, performance attribution will be conducted to identify the primary drivers of portfolio profit-and-loss (PnL). Customization options for the backtest will also be explored.
+
